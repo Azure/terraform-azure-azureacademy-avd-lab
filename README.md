@@ -1,0 +1,1 @@
+# terraform-azure-azureacademy-avd-lab
