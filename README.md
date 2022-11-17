@@ -1,6 +1,6 @@
 # Azure Academy AVD Lab Terraform Implementation
 
-This repo is a Terraform implementation of the YouTube tutorial [AZ-140 ep12 | Implement AVD Network](https://www.youtube.com/watch?v=kjqFUN78lso&t=235s).
+This repo is a Terraform implementation of the Azure YouTube tutorial [AZ-140 ep12 | Implement AVD Network](https://www.youtube.com/watch?v=kjqFUN78lso&t=235s).
 
 
 ## Contributing
