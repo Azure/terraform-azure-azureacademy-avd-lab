@@ -8,6 +8,7 @@ export TF_VAR_subscription_id=$(az account show | jq -r ".id")
 tfren
 terraform init
 terraform fmt
-terraform plan
+
+# DANGUROUS: THIS IF FOR DEMO PURPOSES ONLY
 terraform apply --auto-approve
 # terraform destroy --auto-approve
