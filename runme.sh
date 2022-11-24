@@ -11,6 +11,7 @@ export TF_VAR_storukaz140name="storukaz140jag"
 tfren
 terraform init
 terraform fmt
-# terraform plan
+
+# DANGUROUS: THIS IF FOR DEMO PURPOSES ONLY
 terraform apply --auto-approve
 # terraform destroy --auto-approve
