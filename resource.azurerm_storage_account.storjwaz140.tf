@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "storjwaz140" {
-  name                     = "storjwaz140obay"
+  name                     = var.storjwaz140name
   resource_group_name      = azurerm_resource_group.rg-wth-avd-d-jw.name
   location                 = azurerm_resource_group.rg-wth-avd-d-jw.location
   account_tier             = "Premium"

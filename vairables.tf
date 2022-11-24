@@ -29,3 +29,21 @@ variable "domain_name" {
   type    = string
   default = "contoso.com"
 }
+
+variable "storusaz140name" {
+  type        = string
+  description = "Storage account name in US, name must be globally unique"
+
+}
+
+variable "storjwaz140name" {
+  type        = string
+  description = "Storage account name in Japan, name must be globally unique"
+
+}
+
+variable "storukaz140name" {
+  type        = string
+  description = "Storage account name in UK, name must be globally unique"
+
+}
