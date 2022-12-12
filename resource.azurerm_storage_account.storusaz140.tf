@@ -1,4 +1,4 @@
-resource "azurerm_storage_account" "storeusaz140" {
+resource "azurerm_storage_account" "storusaz140" {
   name                     = var.storusaz140name
   resource_group_name      = azurerm_resource_group.rg-wth-avd-d-eus.name
   location                 = azurerm_resource_group.rg-wth-avd-d-eus.location

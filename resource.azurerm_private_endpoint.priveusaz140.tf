@@ -10,7 +10,7 @@ resource "azurerm_private_endpoint" "priveusaz140" {
 
   private_service_connection {
     name                           = "priveusaz140-privateserviceconnection"
-    private_connection_resource_id = azurerm_storage_account.storeusaz140.id
+    private_connection_resource_id = azurerm_storage_account.storusaz140.id
     subresource_names              = ["file"]
     is_manual_connection           = false
   }

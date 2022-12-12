@@ -42,7 +42,7 @@ variable "storjwaz140name" {
 
 }
 
-variable "storukaz140name" {
+variable "storuksaz140name" {
   type        = string
   description = "Storage account name in UK, name must be globally unique"
 
