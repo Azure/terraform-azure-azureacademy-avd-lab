@@ -1,5 +1,5 @@
 resource "azurerm_monitor_diagnostic_setting" "Monitoring-VnetGW-eus" {
-  name                       = "Monitoring"
+  name                       = "VnetGW-Monitoring"
   target_resource_id         = azurerm_virtual_network_gateway.VnetGW-eus.id
   log_analytics_workspace_id = resource.azurerm_log_analytics_workspace.MSAA-LogAnalytics-r345xqo624z2.id
 
