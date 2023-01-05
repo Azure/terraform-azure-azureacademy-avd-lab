@@ -38,3 +38,6 @@ terraform.rc
 .DS_Store
 .terraform.lock.hcl
 **/.infracost/*
+
+RANDOM_STORAGE_ACCOUNT_SUFFIX
+adminpassword
