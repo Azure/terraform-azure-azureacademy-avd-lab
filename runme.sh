@@ -21,7 +21,7 @@ export TF_VAR_storjwaz140name="storjwaz140$RANDOM_STORAGE_ACCOUNT_SUFFIX"
 export TF_VAR_storuksaz140name="storukaz140$RANDOM_STORAGE_ACCOUNT_SUFFIX"
 
 tfren
-terraform init
+terraform init -upgrade
 terraform fmt
 
 # DANGUROUS: THIS IF FOR DEMO PURPOSES ONLY
