@@ -2,6 +2,13 @@
 
 This repo is a Terraform implementation of the Azure YouTube tutorial [AZ-140 ep12 | Implement AVD Network](https://www.youtube.com/watch?v=kjqFUN78lso&t=235s).
 
+## Project Roadmap
+
+- Fully automate the deployment of the Azure Academy AVD Lab
+- Reudce needed input from the user to a bare minimum. Use sane defaults where possible.
+- Create Go CLI to simplify the deployment of the lab
+- Create a Svelete Web UI to act as a front end to the Go CLI
+
 
 ## Contributing
 
