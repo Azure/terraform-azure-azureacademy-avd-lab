@@ -16,12 +16,6 @@ resource "azurerm_storage_account" "storjwaz140" {
     }
   }
 
-  # network_rules {
-  #   default_action             = "Deny"
-  #   virtual_network_subnet_ids = []
-  #   ip_rules                   = [var.mypublicipaddress]
-  # }
-
   tags = {
     Application = "wvdZeroTo140"
     Environment = "Lab"
