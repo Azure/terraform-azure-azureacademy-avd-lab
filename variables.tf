@@ -47,3 +47,13 @@ variable "storuksaz140name" {
   description = "Storage account name in UK, name must be globally unique"
 
 }
+
+# Define here to silience Terraform Cloud Warnings ####################################################################
+variable "ARM_TENANT_ID" {
+  type = string
+}
+
+variable "ARM_CLIENT_SECRET" {
+  type = string
+}
+
