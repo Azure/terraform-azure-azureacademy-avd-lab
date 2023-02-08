@@ -48,7 +48,7 @@ variable "storuksaz140name" {
 
 }
 
-# Define here to silience Terraform Cloud Warnings ####################################################################
+# Defined here to silience Terraform Cloud Warnings ###################################################################
 variable "ARM_TENANT_ID" {
   type = string
 }
@@ -64,3 +64,4 @@ variable "ARM_CLIENT_ID" {
 variable "ARM_CLIENT_SECRET" {
   type = string
 }
+#######################################################################################################################
