@@ -10,6 +10,10 @@ resource "azurerm_storage_account" "storusaz140" {
     retention_policy {
       days = 7
     }
+    smb {
+      multichannel_enabled = false
+
+    }
   }
 
   network_rules {
